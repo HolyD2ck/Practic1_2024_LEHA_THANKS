@@ -1,0 +1,55 @@
+Categories
+Name
+Флагманы
+Бюджетные смартфоны
+Игровые смартфоны
+Смартфоны с хорошей камерой
+Смартфоны с большим аккумулятором
+
+Brands
+Name
+Samsung
+Apple
+Xiaomi
+Huawei
+OnePlus
+
+Users
+Name;Email;Password;Role;Phone;Address
+Иван Иванов;ivan@example.com;12345;Пользователь;79991234567;Москва, ул. Ленина
+Ольга Петрова;olga@example.com;54321;Администратор;79992345678;СПб, ул. Пушкина
+Дмитрий Смирнов;dmitry@example.com;67890;Пользователь;79993456789;Казань, ул. Суворова
+Мария Васильева;maria@example.com;11223;Администратор;79994567890;Екатеринбург, ул. Чапаева
+Сергей Новиков;sergey@example.com;44556;Пользователь;79995678901;Нижний Новгород, ул. Горького
+
+Smartphones
+Name;BrandId;Description;Price;ReleaseYear;SimCount;MemoryOptions;ColorOptions;CategoryId;ImageUrl
+Galaxy S23;1;Флагман от Samsung;89999,00;2023;2;128GB, 256GB;Черный, Белый;1;/images/s23.jpg
+iPhone 14;2;Новый iPhone;109999,00;2022;1;128GB, 256GB;Черный, Золотой;1;/images/iphone14.jpg
+Xiaomi Mi 11;3;Бюджетный Xiaomi;29999,00;2021;2;64GB, 128GB;Синий, Черный;1;/images/mi11.jpg
+Huawei P40;4;Смартфон Huawei;49999,00;2020;2;128GB, 256GB;Зеленый, Черный;1;/images/p40.jpg
+OnePlus 9 Pro;5;OnePlus флагман;74999,00;2021;2;128GB, 256GB;Серебристый, Черный;1;/images/oneplus9.jpg
+
+SmartphoneCharacteristics
+SmartphoneId;Characteristic;Value
+1;Диагональ экрана;6.1 дюйма
+2;Процессор;A15 Bionic
+3;Операционная система;Android 11
+4;Диагональ экрана;6.1 дюйма
+5;Процессор;Snapdragon 888
+
+Orders
+UserId;TotalPrice;Status;CreatedAt;UpdatedAt
+1;89999,00;В обработке;01.01.2024;02.01.2024
+2;109999,00;Завершен;01.02.2024;03.02.2024
+3;29999,00;Отменен;01.03.2024;02.03.2024
+4;49999,00;В процессе;01.04.2024;03.04.2024
+5;74999,00;Завершен;01.05.2024;02.05.2024
+
+OrderItems
+OrderId;SmartphoneId;Quantity;Price
+1;1;1;89999,00
+2;2;1;109999,00
+3;3;1;29999,00
+4;4;1;49999,00
+5;5;1;74999,00
