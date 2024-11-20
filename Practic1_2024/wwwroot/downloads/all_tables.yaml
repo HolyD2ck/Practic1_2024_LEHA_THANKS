@@ -92,7 +92,7 @@ Smartphones:
   ColorOptions: Серебристый, Черный
   CategoryId: 1
   ImageUrl: /images/oneplus9.jpg
-SmartphoneCharacteristics:
+'SmartphoneCharacteristics ':
 - SmartphoneId: 1
   Characteristic: Диагональ экрана
   Value: 6.1 дюйма
@@ -136,22 +136,22 @@ Orders:
   UpdatedAt: 02.05.2024
 OrderItems:
 - OrderId: 1
-  SmartphoneId: 1
+  ProductId: 1
   Quantity: 1
   Price: 89999,00
 - OrderId: 2
-  SmartphoneId: 2
+  ProductId: 2
   Quantity: 1
   Price: 109999,00
 - OrderId: 3
-  SmartphoneId: 3
+  ProductId: 3
   Quantity: 1
   Price: 29999,00
 - OrderId: 4
-  SmartphoneId: 4
+  ProductId: 4
   Quantity: 1
   Price: 49999,00
 - OrderId: 5
-  SmartphoneId: 5
+  ProductId: 5
   Quantity: 1
   Price: 74999,00

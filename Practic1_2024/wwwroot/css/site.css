@@ -20,3 +20,118 @@ html {
 body {
   margin-bottom: 60px;
 }
+/* Общие настройки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Заголовок */
+h2 {
+    text-align: center;
+    color: #e91e63;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Сообщение о результате */
+.alert {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #f8bbd0;
+    background-color: #fce4ec;
+    color: #880e4f;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Форма */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f8bbd0;
+}
+
+/* Метка и поле ввода */
+label {
+    font-size: 14px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Кнопка */
+button {
+    background-color: #e91e63;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #d81b60;
+    }
+
+/* Список поддерживаемых форматов */
+h4 {
+    text-align: center;
+    color: #880e4f;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+ul {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+    ul li {
+        margin: 5px 0;
+        padding: 10px;
+        background-color: #f8bbd0;
+        color: #880e4f;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+/* Горизонтальная линия */
+hr {
+    border: none;
+    height: 1px;
+    background: #f8bbd0;
+    margin: 30px 0;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    form, .alert, ul {
+        width: 90%;
+    }
+}

@@ -138,7 +138,7 @@
       <ImageUrl>/images/oneplus9.jpg</ImageUrl>
     </Row>
   </Smartphones>
-  <SmartphoneCharacteristics>
+  <SmartphoneCharacteristics_>
     <Row>
       <SmartphoneId>1</SmartphoneId>
       <Characteristic>Диагональ экрана</Characteristic>
@@ -164,7 +164,7 @@
       <Characteristic>Процессор</Characteristic>
       <Value>Snapdragon 888</Value>
     </Row>
-  </SmartphoneCharacteristics>
+  </SmartphoneCharacteristics_>
   <Orders>
     <Row>
       <UserId>1</UserId>
@@ -205,31 +205,31 @@
   <OrderItems>
     <Row>
       <OrderId>1</OrderId>
-      <SmartphoneId>1</SmartphoneId>
+      <ProductId>1</ProductId>
       <Quantity>1</Quantity>
       <Price>89999,00</Price>
     </Row>
     <Row>
       <OrderId>2</OrderId>
-      <SmartphoneId>2</SmartphoneId>
+      <ProductId>2</ProductId>
       <Quantity>1</Quantity>
       <Price>109999,00</Price>
     </Row>
     <Row>
       <OrderId>3</OrderId>
-      <SmartphoneId>3</SmartphoneId>
+      <ProductId>3</ProductId>
       <Quantity>1</Quantity>
       <Price>29999,00</Price>
     </Row>
     <Row>
       <OrderId>4</OrderId>
-      <SmartphoneId>4</SmartphoneId>
+      <ProductId>4</ProductId>
       <Quantity>1</Quantity>
       <Price>49999,00</Price>
     </Row>
     <Row>
       <OrderId>5</OrderId>
-      <SmartphoneId>5</SmartphoneId>
+      <ProductId>5</ProductId>
       <Quantity>1</Quantity>
       <Price>74999,00</Price>
     </Row>
